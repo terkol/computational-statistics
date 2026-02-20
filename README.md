@@ -63,7 +63,7 @@ Regression examples including Bayesian linear regression via Metropolis–Hastin
 
 Programs include:
 
-Bayesian regression with unknown noise scale and coefficient scale (log-parameterized), multiple chains, and split-$\hat{R}$.
+Bayesian regression with unknown noise scale and coefficient scale (log-parameterized), multiple chains, and split- $\hat R$.
 
 Student-t noise regression for $(\alpha,\beta)$ using PyTorch autograd and LBFGS (with fixed degrees of freedom and fixed unit scale).
 
