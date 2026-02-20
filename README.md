@@ -73,13 +73,13 @@ Basic diagnostics and gradient checking.
 
 Programs include:
 
-$\hat{R}$ and split-$\hat{R}$ for multi-chain output, plus an autocorrelation-based ESS estimator (implemented with a positive-sequence truncation heuristic).
+$\hat{R}$ and split- $\hat{R}$ for multi-chain output, plus an autocorrelation-based ESS estimator (implemented with a positive-sequence truncation heuristic).
 
 A gradient check for a Gaussian-process log-likelihood with an RBF covariance: finite differences versus PyTorch autodiff.
 
 Each topic folder contains a README.md describing the programs in that folder and how to run them.
 
-### Running the code
+## Running the code
 
 Most scripts require `numpy`. Some additionally require `pandas`, `scipy`, `matplotlib`, or `torch` libraries. A minimal install that covers most folders is:
 
@@ -89,6 +89,6 @@ Run a script directly, for example:
 
 `python 01_sampling_basics/mh_1d_sampling.py`
 
-Data files
+## Data files
 
 Several scripts load local data files stored under data/raw/ (e.g. `toydata.txt`, `mixture_data2.txt`, `babies2.txt`, `fram.csv`). Folder READMEs note which files are expected.
